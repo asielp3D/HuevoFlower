@@ -31,7 +31,7 @@ public class huevo : MonoBehaviour
          if(eggHealth > 0) 
         {
            eggHealth -= 1; 
-           healthSlider.value -=1;
+           //healthSlider.value -=1;
             _animator.SetBool("BrokeEgg", false);
         }  
 
