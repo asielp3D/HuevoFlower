@@ -12,6 +12,4 @@ public class EggSelection : MonoBehaviour
         PlayerPrefs.SetString("SelectedEgg", eggName);
         SceneManager.LoadScene("huevo");
     }
-
-    
 }
