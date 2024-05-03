@@ -9,18 +9,21 @@ public class huevo : MonoBehaviour
     [SerializeField]private Slider healthSlider;
     [SerializeField]private Animator _animator;
 
+    [SerializeField]EggDestruction destruction;
+
     // Start is called before the first frame update
     void Start()
     {
         //healthSlider.maxValue=eggHealth;
         _animator = GetComponent<Animator>();
+        destruction = GetComponent<EggDestruction>();
     }
 
     // Update is called once per frame
 
     void Update()
     {
-        if(Input.GetButtonDown("Fire1")) 
+        if(Input.GetButtonDown("Fire1") && eggHealth >= 0) 
         {
           EggHit();
         }  
@@ -40,6 +43,11 @@ public class huevo : MonoBehaviour
             
             _animator.SetBool("BrokeEgg", true);
 
+        }
+
+        if(eggHealth == 0)
+        {
+            destruction.StartCoroutine("ExplodeCoroutine");
         }
     }
 }

@@ -58,7 +58,7 @@ RectTransform:
   m_GameObject: {fileID: 1216308367590880092}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3758755455258500179}
@@ -68,7 +68,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 70}
+  m_AnchoredPosition: {x: 0, y: 800}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4905557702735039856
@@ -131,12 +131,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1835434797746686473}
-  - component: {fileID: 7731507296583629751}
-  - component: {fileID: 6050259331497461714}
+  - component: {fileID: 5117588895217996549}
   - component: {fileID: 2980506658766526072}
   - component: {fileID: 8392982411702266952}
+  - component: {fileID: -8315492106375925900}
+  - component: {fileID: 7808557465219660346}
   m_Layer: 0
-  m_Name: huevo_azul
+  m_Name: huevo_azul_open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,7 +161,7 @@ Transform:
   - {fileID: 227766126673540534}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7731507296583629751
+--- !u!114 &5117588895217996549
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,23 +170,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1311416748966498483}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bf6ebcbebe7b404499f41d3b7ae7e6f, type: 3}
+  m_Script: {fileID: 11500000, guid: 03a1ab21153b1014ebc4097b25f077fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eggName: huevo_azul
---- !u!114 &6050259331497461714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1311416748966498483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04e0550af2c6eab41950e11e9b3fc893, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: huevo
+  eggHealth: 10
+  healthSlider: {fileID: 4905557702735039856}
+  _animator: {fileID: 8392982411702266952}
+  destruction: {fileID: 0}
 --- !u!136 &2980506658766526072
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -230,6 +221,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-8315492106375925900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311416748966498483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f69661732f0ee4dbda30704111aff2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brokenEgg: {fileID: 4994602532022797744, guid: 2dc04ea439b1a6747affde0573862457, type: 3}
+  explosiveForce: 100
+  explosiveRadius: 10
+  pieceFadeSpeed: 0.25
+  pieceDestroyDelay: 5
+  pieceSleepCheckDelay: 0.5
+--- !u!54 &7808557465219660346
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311416748966498483}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1658502894407563827
 GameObject:
   m_ObjectHideFlags: 0

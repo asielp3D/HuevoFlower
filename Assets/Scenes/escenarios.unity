@@ -491,6 +491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: huevo_azul
       objectReference: {fileID: 0}
+    - target: {fileID: 1658502894407563827, guid: a57e53b1c7f1be148862c0f0fdd533ac, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1835434797746686473, guid: a57e53b1c7f1be148862c0f0fdd533ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.3222332
@@ -533,27 +537,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5076123056897685657, guid: a57e53b1c7f1be148862c0f0fdd533ac, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5076123056897685657, guid: a57e53b1c7f1be148862c0f0fdd533ac, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5117588895217996549, guid: a57e53b1c7f1be148862c0f0fdd533ac, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8372444375215045831, guid: a57e53b1c7f1be148862c0f0fdd533ac, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8372444375215045831, guid: a57e53b1c7f1be148862c0f0fdd533ac, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8372444375215045831, guid: a57e53b1c7f1be148862c0f0fdd533ac, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
