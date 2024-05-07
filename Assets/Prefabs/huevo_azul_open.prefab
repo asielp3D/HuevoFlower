@@ -131,7 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1835434797746686473}
-  - component: {fileID: 5117588895217996549}
+  - component: {fileID: -8313448813883623986}
   - component: {fileID: 2980506658766526072}
   - component: {fileID: 8392982411702266952}
   - component: {fileID: -8315492106375925900}
@@ -161,7 +161,7 @@ Transform:
   - {fileID: 227766126673540534}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5117588895217996549
+--- !u!114 &-8313448813883623986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,13 +170,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1311416748966498483}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03a1ab21153b1014ebc4097b25f077fc, type: 3}
+  m_Script: {fileID: 11500000, guid: f41baeab128da1f4590c44a527e87aa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenEggPrefab: {fileID: 0}
   eggHealth: 10
-  healthSlider: {fileID: 4905557702735039856}
-  _animator: {fileID: 8392982411702266952}
-  destruction: {fileID: 0}
+  healthSlider: {fileID: 0}
 --- !u!136 &2980506658766526072
 CapsuleCollider:
   m_ObjectHideFlags: 0
