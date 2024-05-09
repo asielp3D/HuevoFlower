@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a406453fb1c4bee408fa687a286f3983, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eggPrefab1: {fileID: 1311416748966498483, guid: acbfc8c3e550cd749a8321ad0617c874, type: 3}
+  eggPrefab1: {fileID: 4253418132042794345, guid: dc18e395909ce8a42b9da4b0e80c2133, type: 3}
   eggPrefab2: {fileID: 8446098393878772045, guid: 47e99345dd7105d4888babe057a91f30, type: 3}
   spawnPosition: {fileID: 846650294}
 --- !u!4 &692281863
