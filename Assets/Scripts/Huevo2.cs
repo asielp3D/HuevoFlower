@@ -34,7 +34,7 @@ public class Huevo2 : MonoBehaviour
 
             if(eggHealth == 0)
             {
-                Instantiate(_brokenEggPrefab, transform.position, transform.rotation);
+                Instantiate(_brokenEggPrefab, transform.position, Quaternion.identity);
                 Destroy(this.gameObject);
             }
         }  

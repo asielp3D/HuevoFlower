@@ -384,7 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f41baeab128da1f4590c44a527e87aa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _brokenEggPrefab: {fileID: 4235860820450963482, guid: a65ea6df825418e4989dc81f6c1ff71e, type: 3}
+  _brokenEggPrefab: {fileID: 3252565067508821437, guid: f1383d7c0663df04584e52f184911205, type: 3}
   eggHealth: 10
   healthSlider: {fileID: 4438430134145417135}
 --- !u!136 &6542425321359716730

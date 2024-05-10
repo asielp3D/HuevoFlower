@@ -10,6 +10,7 @@ public class EggDestruction2 : MonoBehaviour
     [SerializeField] private float pieceFadeSpeed = 0.25f;
     [SerializeField] private float pieceDestroyDelay = 5f;
     [SerializeField] private float pieceSleepCheckDelay = 0.5f;
+    [SerializeField]private GameObject _animalPrefab;
 
     void Start()
     {
@@ -18,6 +19,8 @@ public class EggDestruction2 : MonoBehaviour
 
     public IEnumerator ExplodeCoroutine()
     {
+        Instantiate(_animalPrefab, transform.position, transform.rotation);
+        
         Rigidbody[] pieces = GetComponentsInChildren<Rigidbody>();
 
         foreach (Rigidbody body in pieces)
