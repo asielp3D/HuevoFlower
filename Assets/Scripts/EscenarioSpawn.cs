@@ -2,23 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EscenarioSpawner : MonoBehaviour
+public class EscenarioSpawn : MonoBehaviour
 {
-    public GameObject eggPrefab1;
-    public GameObject eggPrefab2;
+    public GameObject lagoPrefab;
+    public GameObject nievePrefab;
+    public GameObject campamentoPrefab;
     public Transform spawnPosition;
+    
 
     void Start()
     {
-        string selectedEgg = PlayerPrefs.GetString("SelectedEgg");
+        string selectedAnimal = PlayerPrefs.GetString("SelectedAnimal");
 
-        if (selectedEgg == "huevo_azul")
+        if (selectedAnimal == "Animal_lago")
         {
-            Instantiate(eggPrefab1, spawnPosition.position, Quaternion.identity);
+            Instantiate(lagoPrefab, spawnPosition.position, Quaternion.identity);
         }
-        else if (selectedEgg == "huevo_rojo")
+        else if (selectedAnimal == "Animal_nieve")
         {
-            Instantiate(eggPrefab2, spawnPosition.position, Quaternion.identity);
+            Instantiate(nievePrefab, spawnPosition.position, Quaternion.identity);
+        }
+        else if (selectedAnimal == "Animal_campamento")
+        {
+            Instantiate(campamentoPrefab, spawnPosition.position, Quaternion.identity);
         }
     }
+    
 }

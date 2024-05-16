@@ -14,4 +14,5 @@ public class ChangeScene : MonoBehaviour
         // Cargar la escena con el nombre especificado
         SceneManager.LoadScene(1);
     }
+
 }

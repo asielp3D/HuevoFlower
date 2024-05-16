@@ -10,6 +10,6 @@ public class AnimalSelection : MonoBehaviour
     void OnMouseDown()
     {
         PlayerPrefs.SetString("SelectedAnimal", animalName);
-        SceneManager.LoadScene("escenario");
+        SceneManager.LoadScene(0);
     }
 }

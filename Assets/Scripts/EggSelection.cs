@@ -10,6 +10,6 @@ public class EggSelection : MonoBehaviour
     void OnMouseDown()
     {
         PlayerPrefs.SetString("SelectedEgg", eggName);
-        SceneManager.LoadScene("huevo");
+        SceneManager.LoadScene(1);
     }
 }

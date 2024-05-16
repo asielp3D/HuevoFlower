@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 1190300373956898486}
   - component: {fileID: 4758683835642269794}
   - component: {fileID: 3851223997211641669}
+  - component: {fileID: 647197464702433146}
   - component: {fileID: 6256314647545225636}
   m_Layer: 0
-  m_Name: animal 2
+  m_Name: animal_campamento
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84,6 +85,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &647197464702433146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707198014128922243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0d5dacac6157f449dbb968eb8fc33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalName: Animal_campamento
 --- !u!65 &6256314647545225636
 BoxCollider:
   m_ObjectHideFlags: 0
