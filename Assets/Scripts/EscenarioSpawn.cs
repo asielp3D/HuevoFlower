@@ -16,15 +16,15 @@ public class EscenarioSpawn : MonoBehaviour
 
         if (selectedAnimal == "Animal_lago")
         {
-            Instantiate(lagoPrefab, spawnPosition.position, Quaternion.identity);
+            Instantiate(lagoPrefab, spawnPosition.position, spawnPosition.rotation);
         }
         else if (selectedAnimal == "Animal_nieve")
         {
-            Instantiate(nievePrefab, spawnPosition.position, Quaternion.identity);
+            Instantiate(nievePrefab, spawnPosition.position, spawnPosition.rotation);
         }
         else if (selectedAnimal == "Animal_campamento")
         {
-            Instantiate(campamentoPrefab, spawnPosition.position, Quaternion.identity);
+            Instantiate(campamentoPrefab, spawnPosition.position, spawnPosition.rotation);
         }
     }
     
