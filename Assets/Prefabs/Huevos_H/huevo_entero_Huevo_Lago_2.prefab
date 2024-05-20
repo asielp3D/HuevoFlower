@@ -537,9 +537,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0ec8c4532ed026e4ab3fac9b01dcccbe, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 45052313c9db1694e91bb2e984f8e706, type: 2}
     - target: {fileID: 919132149155446097, guid: 0ec8c4532ed026e4ab3fac9b01dcccbe, type: 3}
       propertyPath: m_Name
-      value: huevo_entero_Huevo
+      value: huevo_entero_Huevo_Lago_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -572,7 +576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f41baeab128da1f4590c44a527e87aa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _brokenEggPrefab: {fileID: 6471508654701883110, guid: f1383d7c0663df04584e52f184911205, type: 3}
+  _brokenEggPrefab: {fileID: 6471508654701883110, guid: 395794f9fc1fcd0418d6527086c6dbd0, type: 3}
   eggHealth: 10
   healthSlider: {fileID: 4739754057230791007}
 --- !u!136 &924512043303350076

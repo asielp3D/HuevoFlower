@@ -815,7 +815,7 @@ GameObject:
   - component: {fileID: 5946082440764159068}
   - component: {fileID: 4702155426552599968}
   m_Layer: 0
-  m_Name: huevo_roto2 Variant
+  m_Name: huevo_roto_Camp_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
