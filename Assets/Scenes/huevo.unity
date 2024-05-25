@@ -281,6 +281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: animal_lago
       objectReference: {fileID: 0}
+    - target: {fileID: 2899518823601338006, guid: cb0f975323d6a874bb8ac3ed735f29e5, type: 3}
+      propertyPath: animalName
+      value: lago_1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -411,10 +415,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eggPrefabLago1: {fileID: 8416925195062766387, guid: 2c35269bd9c55fe4a9230c72ebb44758, type: 3}
   eggPrefabLago2: {fileID: 8416925195062766387, guid: 419971f9402e89546aeb03d193d872c4, type: 3}
-  eggPrefabCamp1: {fileID: 0}
-  eggPrefabCamp2: {fileID: 0}
-  eggPrefabNieve1: {fileID: 0}
-  eggPrefabNieve2: {fileID: 0}
+  eggPrefabCamp1: {fileID: 8416925195062766387, guid: 6f2c015382a540349b4fb5b3aa5aaab4, type: 3}
+  eggPrefabCamp2: {fileID: 8416925195062766387, guid: 2b2c78d7c1b373440945082d0b156d9c, type: 3}
+  eggPrefabNieve1: {fileID: 8416925195062766387, guid: d28878c7ac3d9dc4899dcb4efe5dbf88, type: 3}
+  eggPrefabNieve2: {fileID: 8416925195062766387, guid: 9a2aa089885debc4cb440d4fdcbd71a9, type: 3}
   spawnPosition: {fileID: 846650294}
 --- !u!4 &692281863
 Transform:
@@ -673,6 +677,10 @@ PrefabInstance:
     - target: {fileID: 1707198014128922243, guid: 10925da1b2b31944883b0fc1599702bf, type: 3}
       propertyPath: m_Name
       value: animal_nieve
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973377557872211589, guid: 10925da1b2b31944883b0fc1599702bf, type: 3}
+      propertyPath: animalName
+      value: nieve_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

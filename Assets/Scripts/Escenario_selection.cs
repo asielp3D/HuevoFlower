@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class AnimalSelection : MonoBehaviour
+public class Escenario_selection : MonoBehaviour
 {
-    public string animalName;
+    public string escName;
     
     void OnMouseDown()
     {
-        PlayerPrefs.SetString("SelectedAnimal", animalName);
+        PlayerPrefs.SetString("SelectedESC", escName);
         SceneManager.LoadScene(2);
     }
 }

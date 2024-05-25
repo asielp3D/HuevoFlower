@@ -8,6 +8,7 @@ public class EscenarioSpawn : MonoBehaviour
     public GameObject nievePrefab;
     public GameObject campamentoPrefab;
     public Transform spawnPosition;
+    public GameObject defaultPrefab;
     
 
     void Start()
@@ -26,6 +27,11 @@ public class EscenarioSpawn : MonoBehaviour
         {
             Instantiate(campamentoPrefab, spawnPosition.position, spawnPosition.rotation);
         }
+        else
+        {
+            Instantiate(defaultPrefab, spawnPosition.position, spawnPosition.rotation);
+        }
+
     }
     
 }

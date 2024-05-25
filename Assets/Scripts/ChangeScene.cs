@@ -12,7 +12,7 @@ public class ChangeScene : MonoBehaviour
     void OnMouseDown()
     {
         // Cargar la escena con el nombre especificado
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
 
 }
