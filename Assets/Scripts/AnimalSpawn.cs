@@ -16,27 +16,27 @@ public class AnimalSpawn : MonoBehaviour
     {
         string selectedAnimal = PlayerPrefs.GetString("SelectedAnimal");
 
-        if (selectedAnimal == "lago_1")
+        if (selectedAnimal == "Animal_lago")
         {
             Instantiate(animalPrefabLago1, spawnPosition.position, Quaternion.identity);
         }
-        else if (selectedAnimal == "lago_2")
+        else if (selectedAnimal == "Animal_lago_2")
         {
             Instantiate(animalPrefabLago2, spawnPosition.position, Quaternion.identity);
         }
-        else if (selectedAnimal == "camp_1")
+        else if (selectedAnimal == "Animal_campamento")
+        {
+            Instantiate(animalPrefabCamp1, spawnPosition.position, Quaternion.identity);
+        }
+        else if (selectedAnimal == "Animal_campamento_2")
         {
             Instantiate(animalPrefabCamp2, spawnPosition.position, Quaternion.identity);
         }
-        else if (selectedAnimal == "camp_2")
+        else if (selectedAnimal == "Animal_nieve")
         {
-            Instantiate(animalPrefabCamp2, spawnPosition.position, Quaternion.identity);
+            Instantiate(animalPrefabNieve1, spawnPosition.position, Quaternion.identity);
         }
-        else if (selectedAnimal == "nieve_1")
-        {
-            Instantiate(animalPrefabNieve2, spawnPosition.position, Quaternion.identity);
-        }
-        else if (selectedAnimal == "nieve_2")
+        else if (selectedAnimal == "Animal_nieve_2")
         {
             Instantiate(animalPrefabNieve2, spawnPosition.position, Quaternion.identity);
         }

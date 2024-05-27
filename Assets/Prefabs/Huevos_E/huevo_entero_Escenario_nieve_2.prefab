@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bf6ebcbebe7b404499f41d3b7ae7e6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eggName: nieve_1
+  eggName: nieve_2
 --- !u!136 &298739494637511512
 CapsuleCollider:
   m_ObjectHideFlags: 0

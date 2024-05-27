@@ -26,7 +26,7 @@ public class EggSpawner : MonoBehaviour
         }
         else if (selectedEgg == "camp_1")
         {
-            Instantiate(eggPrefabCamp2, spawnPosition.position, Quaternion.identity);
+            Instantiate(eggPrefabCamp1, spawnPosition.position, Quaternion.identity);
         }
         else if (selectedEgg == "camp_2")
         {
@@ -34,7 +34,7 @@ public class EggSpawner : MonoBehaviour
         }
         else if (selectedEgg == "nieve_1")
         {
-            Instantiate(eggPrefabNieve2, spawnPosition.position, Quaternion.identity);
+            Instantiate(eggPrefabNieve1, spawnPosition.position, Quaternion.identity);
         }
         else if (selectedEgg == "nieve_2")
         {

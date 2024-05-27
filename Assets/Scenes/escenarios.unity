@@ -490,11 +490,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabLago1: {fileID: 1707198014128922243, guid: cb0f975323d6a874bb8ac3ed735f29e5, type: 3}
-  animalPrefabLago2: {fileID: 0}
+  animalPrefabLago2: {fileID: 1707198014128922243, guid: 843a9910a75049d419557234b09f40f8, type: 3}
   animalPrefabCamp1: {fileID: 1707198014128922243, guid: 843a9910a75049d419557234b09f40f8, type: 3}
-  animalPrefabCamp2: {fileID: 0}
+  animalPrefabCamp2: {fileID: 1707198014128922243, guid: 843a9910a75049d419557234b09f40f8, type: 3}
   animalPrefabNieve1: {fileID: 1707198014128922243, guid: 10925da1b2b31944883b0fc1599702bf, type: 3}
-  animalPrefabNieve2: {fileID: 0}
+  animalPrefabNieve2: {fileID: 1707198014128922243, guid: 10925da1b2b31944883b0fc1599702bf, type: 3}
   spawnPosition: {fileID: 1271008555}
 --- !u!4 &1008610221
 Transform:

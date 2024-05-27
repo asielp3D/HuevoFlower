@@ -19,11 +19,23 @@ public class EscenarioSpawn : MonoBehaviour
         {
             Instantiate(lagoPrefab, spawnPosition.position, spawnPosition.rotation);
         }
+        else if (selectedAnimal == "Animal_lago_2")
+        {
+            Instantiate(lagoPrefab, spawnPosition.position, spawnPosition.rotation);
+        }
         else if (selectedAnimal == "Animal_nieve")
         {
             Instantiate(nievePrefab, spawnPosition.position, spawnPosition.rotation);
         }
+        else if (selectedAnimal == "Animal_nieve_2")
+        {
+            Instantiate(nievePrefab, spawnPosition.position, spawnPosition.rotation);
+        }
         else if (selectedAnimal == "Animal_campamento")
+        {
+            Instantiate(campamentoPrefab, spawnPosition.position, spawnPosition.rotation);
+        }
+        else if (selectedAnimal == "Animal_campamento_2")
         {
             Instantiate(campamentoPrefab, spawnPosition.position, spawnPosition.rotation);
         }
