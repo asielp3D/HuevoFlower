@@ -865,7 +865,7 @@ MonoBehaviour:
   pieceFadeSpeed: 0.25
   pieceDestroyDelay: 5
   pieceSleepCheckDelay: 0.5
-  _animalPrefab: {fileID: 1707198014128922243, guid: 843a9910a75049d419557234b09f40f8, type: 3}
+  _animalPrefab: {fileID: 3459502191553842112, guid: 36e7ad503ba51984fa8dfd11266127e1, type: 3}
 --- !u!1 &6509387796680545497
 GameObject:
   m_ObjectHideFlags: 0
