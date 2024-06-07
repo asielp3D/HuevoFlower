@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bf6ebcbebe7b404499f41d3b7ae7e6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eggName: lago_2
+  eggName: lago_1
 --- !u!136 &8647995041808857625
 CapsuleCollider:
   m_ObjectHideFlags: 0
