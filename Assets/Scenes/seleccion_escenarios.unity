@@ -379,6 +379,9 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d99f7eef6dc810448aa69ad03b0aba6f, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1001309100}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d99f7eef6dc810448aa69ad03b0aba6f, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1001309099}
   m_SourcePrefab: {fileID: 100100000, guid: d99f7eef6dc810448aa69ad03b0aba6f, type: 3}
 --- !u!1 &1001309098 stripped
@@ -408,6 +411,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2706842448228445511, guid: d99f7eef6dc810448aa69ad03b0aba6f, type: 3}
+--- !u!114 &1001309100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001309098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f458704153707de47ab2c61fb83d6c9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage: campamento
 --- !u!1 &1242376523
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,6 +539,9 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9dbd982f3d4931f48a521c1387571b9b, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1526888114}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9dbd982f3d4931f48a521c1387571b9b, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1526888112}
   m_SourcePrefab: {fileID: 100100000, guid: 9dbd982f3d4931f48a521c1387571b9b, type: 3}
 --- !u!1 &1526888111 stripped
@@ -552,6 +571,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3755145460750033736, guid: 9dbd982f3d4931f48a521c1387571b9b, type: 3}
+--- !u!114 &1526888114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526888111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f458704153707de47ab2c61fb83d6c9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage: nieve
 --- !u!1001 &1568422011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -622,6 +654,9 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8c49d6158bfb29244a751a5f21f8d86b, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 1568422014}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8c49d6158bfb29244a751a5f21f8d86b, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 1568422013}
   m_SourcePrefab: {fileID: 100100000, guid: 8c49d6158bfb29244a751a5f21f8d86b, type: 3}
 --- !u!1 &1568422012 stripped
@@ -651,6 +686,66 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3962213713127122086, guid: 8c49d6158bfb29244a751a5f21f8d86b, type: 3}
+--- !u!114 &1568422014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568422012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f458704153707de47ab2c61fb83d6c9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stage: lago
+--- !u!1 &1929918887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1929918889}
+  - component: {fileID: 1929918888}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1929918888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929918887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa22a844207e0164f9dbe46c9fad22b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  huevoLago: 0000
+  huevoNieve: 0000
+  huevoCampamento: 0000
+--- !u!4 &1929918889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929918887}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.348789, y: -7.183281, z: -0.32020187}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2143112244
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,3 +825,4 @@ SceneRoots:
   - {fileID: 1001309097}
   - {fileID: 1568422011}
   - {fileID: 1526888110}
+  - {fileID: 1929918889}

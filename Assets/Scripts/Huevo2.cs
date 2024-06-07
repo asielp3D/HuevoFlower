@@ -34,10 +34,47 @@ public class Huevo2 : MonoBehaviour
 
             if(eggHealth == 0)
             {
+                EggOpened();
                 Instantiate(_brokenEggPrefab, transform.position, Quaternion.identity);
                 Destroy(this.gameObject);
             }
         }  
+    }
+
+    void EggOpened()
+    {
+        string selectedAnimal = PlayerPrefs.GetString("SelectedEgg");
+
+        if (selectedAnimal == "lago_1")
+        {
+            PlayerPrefs.SetString("HuevoLago0", "true");
+            GameManager.instance.huevoLago[0] = true;
+        }
+        else if (selectedAnimal == "lago_2")
+        {
+            PlayerPrefs.SetString("HuevoLago1", "true");
+            GameManager.instance.huevoLago[1] = true;        
+        }
+        else if (selectedAnimal == "camp_1")
+        {
+            PlayerPrefs.SetString("HuevoCampamento0", "true");
+            GameManager.instance.huevoCampamento[0] = true;
+        }
+        else if (selectedAnimal == "camp_2")
+        {
+            PlayerPrefs.SetString("HuevoCampamento1", "true");
+            GameManager.instance.huevoCampamento[1] = true;
+        }
+        else if (selectedAnimal == "nieve_1")
+        {
+            PlayerPrefs.SetString("HuevoNieve0", "true");
+            GameManager.instance.huevoNieve[0] = true;
+        }
+        else if (selectedAnimal == "nieve_2")
+        {
+            PlayerPrefs.SetString("HuevoNieve1", "true");
+            GameManager.instance.huevoNieve[1] = true;
+        }
     }
 }
 
