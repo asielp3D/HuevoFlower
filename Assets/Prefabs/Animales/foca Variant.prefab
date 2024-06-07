@@ -59,6 +59,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e0bb8d949375ce4418689c6d9bdd0afc, type: 3}
       insertIndex: 1
       addedObject: {fileID: 817542562476433785}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e0bb8d949375ce4418689c6d9bdd0afc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2755538194916543784}
   m_SourcePrefab: {fileID: 100100000, guid: e0bb8d949375ce4418689c6d9bdd0afc, type: 3}
 --- !u!1 &6441580475550516088 stripped
 GameObject:
@@ -78,3 +81,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animalName: Animal_nieve_2
+--- !u!65 &2755538194916543784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6441580475550516088}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.026992224, y: 0.03167269, z: 0.03789199}
+  m_Center: {x: 0, y: 0.015836345, z: 0.0060609747}
