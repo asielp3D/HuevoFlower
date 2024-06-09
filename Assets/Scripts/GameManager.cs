@@ -41,4 +41,13 @@ public class GameManager : MonoBehaviour
             huevoCampamento[i] = PlayerPrefs.GetString("HuevoCampamento" + i , "false") == "true";
         }
     }
+
+    void DeleteAll()
+    {
+        if(Input.GetKeyDown(KeyCode.Q))
+        {
+        PlayerPrefs.DeleteAll();
+        }
+    }
+
 }
