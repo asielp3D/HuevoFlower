@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e0d5dacac6157f449dbb968eb8fc33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalName: Animal_lago_2
+  animalName: Animal_lago
 --- !u!65 &-2066398100363340363
 BoxCollider:
   m_ObjectHideFlags: 0

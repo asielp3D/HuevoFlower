@@ -42,11 +42,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void DeleteAll()
+    void Update()
     {
         if(Input.GetKeyDown(KeyCode.Q))
         {
-        PlayerPrefs.DeleteAll();
+            PlayerPrefs.DeleteAll();
         }
     }
 

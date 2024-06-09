@@ -9,4 +9,18 @@ public class SceneChanger_Menu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void LoadSceneMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void QuitGame()
+    {
+        // Imprimir un mensaje en la consola para verificar que el botón funciona
+        Debug.Log("El juego se cerrará.");
+
+        // Salir del juego
+        Application.Quit();
+    }
 }

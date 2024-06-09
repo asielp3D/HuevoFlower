@@ -80,7 +80,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e0d5dacac6157f449dbb968eb8fc33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalName: Animal_nieve_2
+  animalName: Animal_nieve
 --- !u!65 &2755538194916543784
 BoxCollider:
   m_ObjectHideFlags: 0
