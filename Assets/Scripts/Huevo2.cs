@@ -10,10 +10,16 @@ public class Huevo2 : MonoBehaviour
     [SerializeField]private float eggHealth = 10;
     [SerializeField]private Slider healthSlider;
 
+    public SFXManager sfxManager;
+    private AudioSource source;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         healthSlider.maxValue=eggHealth;
+        sfxManager = GameObject.Find("SFXManager").GetComponent<SFXManager>();
     }
 
     // Update is called once per frame
@@ -22,6 +28,7 @@ public class Huevo2 : MonoBehaviour
         if(Input.GetButtonDown("Fire1") && eggHealth >= 0) 
         {
           EggHit();
+          sfxManager.EggHitSound();
         }  
     }
 
@@ -31,14 +38,18 @@ public class Huevo2 : MonoBehaviour
         {
             eggHealth -= 1; 
             healthSlider.value -=1;
+            
 
             if(eggHealth == 0)
             {
                 EggOpened();
                 Instantiate(_brokenEggPrefab, transform.position, Quaternion.identity);
                 Destroy(this.gameObject);
+                sfxManager.OpenEggSound();
             }
         }  
+
+        
     }
 
     void EggOpened()
